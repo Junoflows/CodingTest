@@ -2,6 +2,11 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/140108) 
 
+### 아이디어
+str로 for 문 s[i+1:] 방식으로 for 문 했을 때 런타임 에러가 났음  
+리스트의 i 번째 원소를 읽을 때 0부터 i 까지 모두 읽기 때문  
+pop 을 이용해서 읽었던 값은 제거하여 시간 단축  
+
 ### 성능 요약
 
 메모리: 10.2 MB, 시간: 9.76 ms
