@@ -2,6 +2,11 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42576) 
 
+### 아이디어
+pop(0) 을 쓰면 효율성에서 시간초과가 나서 deque 의 popleft() 사용  
+리스트 정렬한 후 이름이 0번째 이름이 같으면 서로 popleft()  
+다른 경우 그 사람이 완주하지 못한 선수임
+
 ### 성능 요약
 
 메모리: 26.5 MB, 시간: 76.20 ms
