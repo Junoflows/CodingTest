@@ -2,6 +2,9 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/161989) 
 
+### 아이디어
+section 이 빈 리스트일 때까지 반복문 작성해서 section[0] 에서 롤러 한번 하고 그 이후 값부터 section 다시 저장
+
 ### 성능 요약
 
 메모리: 12.9 MB, 시간: 637.23 ms
