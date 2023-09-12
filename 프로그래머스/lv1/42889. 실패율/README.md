@@ -2,6 +2,11 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42889) 
 
+### 아이디어
+단계별 실패율 리스트 만들고 인덱스와 값으로 딕셔너리 생성  
+값은 실패율을 나타내므로 value 를 오름차순으로 나타내도록 set 으로 설정  
+value 가 가장 클 때 key 저장하고 set.remove(mex(set)) 해주고 계속 이어서
+
 ### 성능 요약
 
 메모리: 10.3 MB, 시간: 0.02 ms
