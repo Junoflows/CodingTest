@@ -2,6 +2,11 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/131128) 
 
+### 아이디어
+Collections 의 Counter 로 X, Y 의 숫자의 개수를 딕셔너리로 저장  
+key의 값이 겹치는 것 중에 작은 value 번 key 를 추가  
+key 를 내림차순으로 정렬하고 출력
+
 ### 성능 요약
 
 메모리: 10.2 MB, 시간: 0.03 ms
