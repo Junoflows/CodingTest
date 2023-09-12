@@ -2,6 +2,13 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/161990) 
 
+### 아이디어
+첫 번째 열부터 가장 왼쪽에 있는 장애물과 오른쪽에 있는 장애물을 각각 col_min, col_max 에 저장
+
+첫 번째 행부터 장애물이 있는 행이면 row 에 추가
+
+마지막에 row 의 최소, col_min 의 최소, row 의 최대, col_max 의 최대 좌표
+
 ### 성능 요약
 
 메모리: 10.1 MB, 시간: 0.04 ms
