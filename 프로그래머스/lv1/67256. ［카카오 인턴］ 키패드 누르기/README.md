@@ -2,6 +2,15 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/67256) 
 
+### 아이디어
+키패드를 4x3 배열로 만들고 시작 위치를 각각 left 는 [3,0], right 는 [3,2] 로 설정(인덱스 저장)
+
+[1,4,7], [3,6,9] 는 각각 L, R 추가하고 인덱스로 left, right 이동
+
+(numbers[i] - 1) // 3, (numbers[i] - 1) % 3 을 이용
+
+[2,4,8] 과 [0] 은 각 left right 중 더 가까운 거 맨하튼 거리로 확인
+
 ### 성능 요약
 
 메모리: 10.3 MB, 시간: 0.67 ms
