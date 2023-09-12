@@ -2,6 +2,11 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/178871) 
 
+### 아이디어
+현재 순위를 rank 딕셔너리로 만듦
+
+등수 변화를 rank[key] 로 해주고 players 에서 순서 바꿔주기
+
 ### 성능 요약
 
 메모리: 10.2 MB, 시간: 0.01 ms
