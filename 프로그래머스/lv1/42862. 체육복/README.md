@@ -2,6 +2,12 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42862) 
 
+### 아이디어 
+여벌 체육복이 있는데 도난 당했을 경우 lost 와 reserve 에서 제거  
+원본에 영향 주지 않게 복사본 생성  
+순서대로 i-1 일 때 있으면 reserve 에서 제거하고 cnt ++  
+i+1 일 때 reserve에 있으면 제거하고 cnt ++
+
 ### 성능 요약
 
 메모리: 10.2 MB, 시간: 0.01 ms
