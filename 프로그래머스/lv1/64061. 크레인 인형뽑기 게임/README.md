@@ -2,6 +2,10 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/64061) 
 
+### 아이디어
+move 에서 뽑은 열 인덱스를 2차원 배열에서 0이 아닌 행을 basket 에 추가하고 0으로 바꿔줌  
+basket[-1] ==basket[-2] 이면 둘다 pop 해주고 cnt += 2
+
 ### 성능 요약
 
 메모리: 10.2 MB, 시간: 1.20 ms
