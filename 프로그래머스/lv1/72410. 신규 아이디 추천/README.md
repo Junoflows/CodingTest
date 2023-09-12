@@ -2,6 +2,13 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/72410) 
 
+### 아이디어
+str 에서 사용할 수 있는 함수들과 (replace, isalpha ...)
+
+list 에서 사용할 수 있는 함수들을 이용해서 (pop)
+
+필요한 부분에서 str과 list 로 변경해가면서 진행
+
 ### 성능 요약
 
 메모리: 10.2 MB, 시간: 0.32 ms
