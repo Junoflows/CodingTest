@@ -2,6 +2,9 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/160586) 
 
+### 아이디어
+targets 의 문자열이 keymap 에서 있는 인덱스를 저장하는 리스트를 만들고 인덱스의 최소값을 반환
+
 ### 성능 요약
 
 메모리: 10.3 MB, 시간: 21.82 ms
