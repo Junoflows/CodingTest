@@ -2,6 +2,11 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/77484) 
 
+### 아이디어
+맞춘 개수 tmp 에 저장하고 마스킹된 0 개수 저장  
+cnt_li 에 최대 정답 개수, 최소 개수 저장하고  
+조건에 맞게 리스트로 출력
+
 ### 성능 요약
 
 메모리: 10 MB, 시간: 0.00 ms
