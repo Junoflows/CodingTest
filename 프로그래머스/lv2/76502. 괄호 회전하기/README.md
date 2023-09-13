@@ -2,6 +2,12 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/76502) 
 
+### 아이디어
+
+스택 이용해서 괄호 여는건 append, 닫는건 스택 마지막 원소랑 비교해서 같으면 pop 다르면 break
+
+최종 스택이 빈 스택이면 cnt += 1
+
 ### 성능 요약
 
 메모리: 10.3 MB, 시간: 0.05 ms
