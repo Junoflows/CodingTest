@@ -2,6 +2,13 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42583) 
 
+### 아이디어
+stack 으로 구현 // deque 로 하는게 더 좋아보임
+
+다리 길이만큼 리스트를 만든 후 리스트 합과 추가할 트럭의 무게가 weight 가 넘는지 확인
+
+리스트 [0] 에 트럭이 있을 때는 따로 고려해야함
+
 ### 성능 요약
 
 메모리: 10.2 MB, 시간: 0.01 ms
