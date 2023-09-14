@@ -21,15 +21,3 @@ def solution(answers):
             result.append(i+1)
             
     return result
-    
-    
-    # if cnt.count(max(cnt)) == 1:
-    #     return [cnt.index(max(cnt))+1]
-    # elif cnt.count(max(cnt)) == 2:
-    #     li = [1,2,3]
-    #     li.pop(cnt.index(min(cnt)))
-    #     return li
-    #     # return [1,2,3].pop(cnt.index(min(cnt)))
-    # elif cnt.count(max(cnt)) == 3:
-    #     return [1,2,3]
-    
