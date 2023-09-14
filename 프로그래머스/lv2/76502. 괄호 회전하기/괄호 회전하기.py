@@ -18,10 +18,5 @@ def solution(s):
 
             if i == len(s) - 1 and stack == []:
                 cnt += 1
-        
-    print(stack, cnt)
+
     return cnt
-#     for _ in range(len(s)):
-#         s = s[1:]+s[0]
-    
-#     print(cnt)
