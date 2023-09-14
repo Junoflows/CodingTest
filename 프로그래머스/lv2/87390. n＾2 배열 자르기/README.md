@@ -2,6 +2,14 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/87390) 
 
+### 아이디어
+
+n*n 배열을 만들면 시간초과
+
+1234, 2234, 3334 ... 행 단위로 값의 규칙이 있음
+
+left mid right 나눠서 리스트 만든 후 합치기 mid 가 없는 경우도 있고 left, right 가 같은 경우도 고려
+
 ### 성능 요약
 
 메모리: 404 MB, 시간: 721.67 ms
