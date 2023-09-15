@@ -2,6 +2,14 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42586) 
 
+### 아이디어
+
+스택
+
+인덱스마다 progresses + speeds 하고 100이 넘으면 넘어감
+
+progresses[0] 이 100 보다 크지 않을 때까지 pop(0) 하고 cnt 를 리스트에 추가
+
 ### 성능 요약
 
 메모리: 10.3 MB, 시간: 0.04 ms
