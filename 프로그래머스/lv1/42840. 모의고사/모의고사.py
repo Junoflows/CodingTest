@@ -3,9 +3,9 @@ def solution(answers):
     man2 = [2,1,2,3,2,4,2,5]
     man3 = [3,3,1,1,2,2,4,4,5,5]
     
-    man1 = man1 * ((len(answers)-1) // len(man1) +1)
-    man2 = man2 * ((len(answers)-1) // len(man2) +1)
-    man3 = man3 * ((len(answers)-1) // len(man3) +1)
+    man1 = man1 * ((len(answers)) // len(man1) +1)
+    man2 = man2 * ((len(answers)) // len(man2) +1)
+    man3 = man3 * ((len(answers)) // len(man3) +1)
     cnt = [0,0,0]
     for i in range(len(answers)):
         if answers[i] == man1[i]:
