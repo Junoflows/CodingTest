@@ -2,6 +2,12 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42842) 
 
+### 아이디어
+
+yellow 가 될 수 있는 가로 세로 길이를 리스트에 저장하고
+
+(가로+세로)*2 + 4 가 brown 인 가로 세로 찾아서 가로+2, 세로+2 리턴
+
 ### 성능 요약
 
 메모리: 10.3 MB, 시간: 0.04 ms
