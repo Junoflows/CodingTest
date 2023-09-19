@@ -2,6 +2,12 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12909) 
 
+### 아이디어
+
+스택 문제인데 문자열을 리스트로 만들어서 pop(0) 하면 시간 초과가 뜸  
+for i in range(len(str)) 로 돌면서 하자  
+( 이면 stack 에 추가, ) 일 때는 빈 stack 이면 false, 아니면 stack.pop()
+
 ### 성능 요약
 
 메모리: 10.3 MB, 시간: 11.60 ms
